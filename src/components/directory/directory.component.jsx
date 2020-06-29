@@ -5,44 +5,34 @@ import MenuItem from '../menu-item/menu-item.component';
 class Directory extends React.Component {
     state = {
         sections: [{
-                title: 'Nike',
-                imageUrl: '/images/nike.jpg',
-                id: 1,
-                linkUrl: 'shop/hats'
+                title: 'nike',
+                id: 1
             },
             {
-                title: 'Reebok',
-                imageUrl: '/images/reebok.jpg',
-                id: 3,
-                linkUrl: 'shop/sneakers'
+                title: 'reebok',
+                id: 3
             },
             {
-                title: 'Adidas',
-                imageUrl: '/images/adidas.jpg',
-                id: 2,
-                linkUrl: 'shop/jackets'
+                title: 'adidas',
+                id: 2
             },
             {
-                title: 'Womens',
-                imageUrl: '/images/womens.jpg',
+                title: 'womens',
                 size: 'large',
-                id: 4,
-                linkUrl: 'shop/womens'
+                id: 4
             },
             {
-                title: 'Mens',
-                imageUrl: '/images/mens.jpg',
+                title: 'mens',
                 size: 'large',
-                id: 5,
-                linkUrl: 'shop/mens'
+                id: 5
             }]
     };
 
     render() {
         return (
             <div className='directory-menu'>
-                {this.state.sections.map(({title, imageUrl, id, size}) => (
-                    <MenuItem key={id} title={title} imageUrl={imageUrl} size={size} />
+                {this.state.sections.map(({ id, ...otherSectionProps }) => (
+                    <MenuItem key={id} {...otherSectionProps} />
                 ))}
             </div>
         )

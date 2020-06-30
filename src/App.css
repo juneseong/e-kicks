@@ -2,3 +2,8 @@ body {
     font-family: 'Roboto', sans-serif;
     padding: 40px 60px;
 }
+
+a {
+    text-decoration: none;
+    color: #363636;
+}

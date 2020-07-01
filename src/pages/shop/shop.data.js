@@ -9,7 +9,25 @@ const SHOP_DATA = [
                 name: 'Nike Air Force 270',
                 imageUrl: 'images/shoes/nike1.jpg',
                 price: 225
-            }
+            },
+            {
+                id: 2,
+                name: 'Reebok Workout Plus',
+                imageUrl: 'images/shoes/reebok1.jpg',
+                price: 220
+            },
+            {
+                id: 3,
+                name: 'Reebok Workout Plus',
+                imageUrl: 'images/shoes/reebok2.jpg',
+                price: 280
+            },
+            {
+                id: 4,
+                name: 'Reebok Aztrek',
+                imageUrl: 'images/shoes/reebok3.jpg',
+                price: 110
+            },
         ]
     },
     {

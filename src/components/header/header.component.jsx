@@ -1,9 +1,12 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, withRouter } from 'react-router-dom';
 import './header.styles.scss';
+import { auth } from '../../firebase/firebase.utils';
 
-const Header = () => (
-    <div className='header'>
+const Header = ({ currentUser, history }) => (
+    <div 
+        className='header'>
+        <div></div>
         <div className='logo-container'>
             <Link to='/' className='logo'>
                 <h1>e-kicks</h1>
@@ -13,11 +16,13 @@ const Header = () => (
             <Link className='option' to='/shop'>
                 Shop
             </Link>
-            <Link className='option' to='/shop'>
-                Contact
-            </Link>
+            {
+                currentUser 
+                ? <div className='option' onClick={() => auth.signOut()}>Sign Out</div>
+                : <Link className='option' to='/signin'>Sign In</Link>
+            }
         </div>
     </div>
 )
 
-export default Header;
+export default withRouter(Header);

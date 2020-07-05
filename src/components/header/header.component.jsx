@@ -1,9 +1,10 @@
 import React from 'react';
-import { Link, withRouter } from 'react-router-dom';
+import { connect } from 'react-redux';
+import { Link } from 'react-router-dom';
 import './header.styles.scss';
 import { auth } from '../../firebase/firebase.utils';
 
-const Header = ({ currentUser, history }) => (
+const Header = ({ currentUser }) => (
     <div 
         className='header'>
         <div></div>
@@ -25,4 +26,8 @@ const Header = ({ currentUser, history }) => (
     </div>
 )
 
-export default withRouter(Header);
+const mapStateToProps = state => ({
+    currentUser: state.user.currentUser
+})
+
+export default connect(mapStateToProps)(Header);

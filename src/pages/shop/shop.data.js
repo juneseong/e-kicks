@@ -36,25 +36,25 @@ const SHOP_DATA = [
         routeName: 'reebok',
         items: [
             {
-                id: 2,
+                id: 5,
                 name: 'Reebok Workout Plus',
                 imageUrl: 'images/shoes/reebok1.jpg',
                 price: 220
             },
             {
-                id: 3,
+                id: 6,
                 name: 'Reebok Workout Plus',
                 imageUrl: 'images/shoes/reebok2.jpg',
                 price: 280
             },
             {
-                id: 4,
+                id: 7,
                 name: 'Reebok Aztrek',
                 imageUrl: 'images/shoes/reebok3.jpg',
                 price: 110
             },
             {
-                id: 5,
+                id: 8,
                 name: 'Reebok Aztrek',
                 imageUrl: 'images/shoes/reebok4.jpg',
                 price: 160
@@ -67,37 +67,37 @@ const SHOP_DATA = [
         routeName: 'adidas',
         items: [
             {
-                id: 6,
+                id: 9,
                 name: 'Adidas Sambarose',
                 imageUrl: 'images/shoes/adidas1.jpg',
                 price: 125
             },
             {
-                id: 7,
+                id: 10,
                 name: 'Adidas Sambarose',
                 imageUrl: 'images/shoes/adidas2.jpg',
                 price: 190
             },
             {
-                id: 8,
+                id: 11,
                 name: 'Adidas Campus',
                 imageUrl: 'images/shoes/adidas3.jpg',
                 price: 190
             },
             {
-                id: 9,
+                id: 12,
                 name: 'Adidas Campus',
                 imageUrl: 'images/shoes/adidas4.jpg',
                 price: 165
             },
             {
-                id: 10,
+                id: 13,
                 name: 'Adidas Adilette Shower',
                 imageUrl: 'images/shoes/adidas5.jpg',
                 price: 185
             },
             {
-                id: 11,
+                id: 14,
                 name: 'Adidas Adilette Shower',
                 imageUrl: 'images/shoes/adidas6.jpg',
                 price: 185
@@ -110,37 +110,37 @@ const SHOP_DATA = [
         routeName: 'womens',
         items: [
             {
-                id: 2,
+                id: 5,
                 name: 'Reebok Workout Plus',
                 imageUrl: 'images/shoes/reebok1.jpg',
                 price: 220
             },
             {
-                id: 3,
+                id: 6,
                 name: 'Reebok Workout Plus',
                 imageUrl: 'images/shoes/reebok2.jpg',
                 price: 280
             },
             {
-                id: 6,
+                id: 9,
                 name: 'Adidas Sambarose',
                 imageUrl: 'images/shoes/adidas1.jpg',
                 price: 125
             },
             {
-                id: 7,
+                id: 10,
                 name: 'Adidas Sambarose',
                 imageUrl: 'images/shoes/adidas2.jpg',
                 price: 190
             },
             {
-                id: 8,
+                id: 11,
                 name: 'Adidas Campus',
                 imageUrl: 'images/shoes/adidas3.jpg',
                 price: 190
             },
             {
-                id: 9,
+                id: 12,
                 name: 'Adidas Campus',
                 imageUrl: 'images/shoes/adidas4.jpg',
                 price: 165
@@ -159,25 +159,25 @@ const SHOP_DATA = [
                 price: 225
             },
             {
-                id: 4,
+                id: 7,
                 name: 'Reebok Aztrek',
                 imageUrl: 'images/shoes/reebok3.jpg',
                 price: 110
             },
             {
-                id: 5,
+                id: 8,
                 name: 'Reebok Aztrek',
                 imageUrl: 'images/shoes/reebok4.jpg',
                 price: 160
             },
             {
-                id: 10,
+                id: 13,
                 name: 'Adidas Adilette Shower',
                 imageUrl: 'images/shoes/adidas5.jpg',
                 price: 185
             },
             {
-                id: 11,
+                id: 14,
                 name: 'Adidas Adilette Shower',
                 imageUrl: 'images/shoes/adidas6.jpg',
                 price: 185

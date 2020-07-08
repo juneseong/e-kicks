@@ -12,10 +12,10 @@ const StripeCheckoutButton = ({ price }) => {
     return (
         <StripeCheckout
             label='Pay Now'
-            name='e-kicks'
+            image='images/logo.png'
             billingAddress
             shippingAddress
-            description={`Your total is $${price}`}
+            description={`Your total is $${price}.`}
             amount={priceForStripe}
             panelLabel='Pay Now'
             token={onToken}

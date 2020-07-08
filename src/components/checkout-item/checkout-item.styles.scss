@@ -2,14 +2,15 @@
     width: 100%;
     display: flex;
     min-height: 100px;
-    border-bottom: 1px solid darkgrey;
+    border-bottom: 1px solid #ededed;
     padding: 15px 0;
-    font-size: 20px;
+    font-size: 18px;
     align-items: center;
+    position: relative;
 
     .image-container {
-        width: 23%;
-        padding-right: 15px;
+        width: 25%;
+        padding: 0 15px;
 
         img {
             width: 100%;
@@ -19,11 +20,18 @@
         .name,
         .quantity,
         .price {
-            width: 23%;
+            width: 25%;
+            font-size: 16px;
+        }
+
+        .price {
+            text-align: right;
+            padding-right: 15px;
         }
 
     .quantity {
         display: flex;
+        justify-content: flex-end;
 
         .arrow {
             cursor: pointer;
@@ -35,7 +43,14 @@
     }
 
     .remove-button {
-        padding-left: 12px;
+        position: absolute;
         cursor: pointer;
+        bottom: 20px;
+        font-size: 13px;
+        font-weight: 800;
+
+        .x {
+            color: #ff0000;
+        }
     }
 }

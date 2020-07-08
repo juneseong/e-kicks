@@ -10,7 +10,7 @@ import { selectCartItems } from '../../redux/cart/cart.selectors';
 import { toggleCartHidden } from '../../redux/cart/cart.actions';
 
 const CartDropdown = ({ cartItems, history, dispatch }) => (
-    <div className='cart-dropdown'>
+    <div className='cart-dropdown' style={{ marginTop: history.location.pathname === '/checkout' ? '60px' : '' }}>
         <div className='cart-items'>
             {
                 cartItems.length

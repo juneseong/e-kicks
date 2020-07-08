@@ -29,12 +29,28 @@
       cursor: pointer;
 
       &:hover {
-        // border-top: 2px solid #fff;
-        // border-bottom: 2px solid #ff0000;
-        // padding-bottom: 2px;
-        // padding-top: 2px;
         text-decoration: underline;
       }
     }
+  }
+}
+
+.test-warning {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #ff0000;
+  font-size: 13px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 15px;
+  font-weight: 800;
+  line-height: 18px;
+
+  .card-info {
+    font-weight: 600;
   }
 }

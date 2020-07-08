@@ -13,25 +13,25 @@ const SHOP_DATA = {
             },
             {
                 id: 2,
-                name: 'Workout Plus',
-                imageUrl: 'images/shoes/reebok1.jpg',
+                name: 'Air Force 270',
+                imageUrl: 'images/shoes/nike2.jpg',
                 price: 220,
                 category: 'Nike'
             },
             {
                 id: 3,
-                name: 'Workout Plus',
-                imageUrl: 'images/shoes/reebok2.jpg',
+                name: 'Air Max 93',
+                imageUrl: 'images/shoes/nike3.jpg',
                 price: 280,
                 category: 'Nike'
             },
             {
                 id: 4,
-                name: 'Aztrek',
-                imageUrl: 'images/shoes/reebok3.jpg',
+                name: 'Air Max 93',
+                imageUrl: 'images/shoes/nike4.jpg',
                 price: 110,
                 category: 'Nike'
-            },
+            }
         ]
     },
     reebok: {
@@ -177,6 +177,27 @@ const SHOP_DATA = {
                 name: 'Air Force 270',
                 imageUrl: 'images/shoes/nike1.jpg',
                 price: 225,
+                category: 'Nike'
+            },
+            {
+                id: 2,
+                name: 'Air Force 270',
+                imageUrl: 'images/shoes/nike2.jpg',
+                price: 220,
+                category: 'Nike'
+            },
+            {
+                id: 3,
+                name: 'Air Max 93',
+                imageUrl: 'images/shoes/nike3.jpg',
+                price: 280,
+                category: 'Nike'
+            },
+            {
+                id: 4,
+                name: 'Air Max 93',
+                imageUrl: 'images/shoes/nike4.jpg',
+                price: 110,
                 category: 'Nike'
             },
             {

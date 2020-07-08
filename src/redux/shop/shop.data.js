@@ -6,27 +6,31 @@ const SHOP_DATA = {
         items: [
             {
                 id: 1,
-                name: 'Nike Air Force 270',
+                name: 'Air Force 270',
                 imageUrl: 'images/shoes/nike1.jpg',
-                price: 225
+                price: 225,
+                category: 'Nike'
             },
             {
                 id: 2,
-                name: 'Reebok Workout Plus',
+                name: 'Workout Plus',
                 imageUrl: 'images/shoes/reebok1.jpg',
-                price: 220
+                price: 220,
+                category: 'Nike'
             },
             {
                 id: 3,
-                name: 'Reebok Workout Plus',
+                name: 'Workout Plus',
                 imageUrl: 'images/shoes/reebok2.jpg',
-                price: 280
+                price: 280,
+                category: 'Nike'
             },
             {
                 id: 4,
-                name: 'Reebok Aztrek',
+                name: 'Aztrek',
                 imageUrl: 'images/shoes/reebok3.jpg',
-                price: 110
+                price: 110,
+                category: 'Nike'
             },
         ]
     },
@@ -37,27 +41,31 @@ const SHOP_DATA = {
         items: [
             {
                 id: 5,
-                name: 'Reebok Workout Plus',
+                name: 'Workout Plus',
                 imageUrl: 'images/shoes/reebok1.jpg',
-                price: 220
+                price: 220,
+                category: 'Reebok'
             },
             {
                 id: 6,
-                name: 'Reebok Workout Plus',
+                name: 'Workout Plus',
                 imageUrl: 'images/shoes/reebok2.jpg',
-                price: 280
+                price: 280,
+                category: 'Reebok'
             },
             {
                 id: 7,
-                name: 'Reebok Aztrek',
+                name: 'Aztrek',
                 imageUrl: 'images/shoes/reebok3.jpg',
-                price: 110
+                price: 110,
+                category: 'Reebok'
             },
             {
                 id: 8,
-                name: 'Reebok Aztrek',
+                name: 'Aztrek',
                 imageUrl: 'images/shoes/reebok4.jpg',
-                price: 160
+                price: 160,
+                category: 'Reebok'
             }
         ]
     },
@@ -68,39 +76,45 @@ const SHOP_DATA = {
         items: [
             {
                 id: 9,
-                name: 'Adidas Sambarose',
+                name: 'Sambarose',
                 imageUrl: 'images/shoes/adidas1.jpg',
-                price: 125
+                price: 125,
+                category: 'Adidas'
             },
             {
                 id: 10,
-                name: 'Adidas Sambarose',
+                name: 'Sambarose',
                 imageUrl: 'images/shoes/adidas2.jpg',
-                price: 190
+                price: 190,
+                category: 'Adidas'
             },
             {
                 id: 11,
-                name: 'Adidas Campus',
+                name: 'Campus',
                 imageUrl: 'images/shoes/adidas3.jpg',
-                price: 190
+                price: 190,
+                category: 'Adidas'
             },
             {
                 id: 12,
-                name: 'Adidas Campus',
+                name: 'Campus',
                 imageUrl: 'images/shoes/adidas4.jpg',
-                price: 165
+                price: 165,
+                category: 'Adidas'
             },
             {
                 id: 13,
-                name: 'Adidas Adilette Shower',
+                name: 'Adilette Shower',
                 imageUrl: 'images/shoes/adidas5.jpg',
-                price: 185
+                price: 185,
+                category: 'Adidas'
             },
             {
                 id: 14,
-                name: 'Adidas Adilette Shower',
+                name: 'Adilette Shower',
                 imageUrl: 'images/shoes/adidas6.jpg',
-                price: 185
+                price: 185,
+                category: 'Adidas'
             }
         ]
     },
@@ -111,39 +125,45 @@ const SHOP_DATA = {
         items: [
             {
                 id: 5,
-                name: 'Reebok Workout Plus',
+                name: 'Workout Plus',
                 imageUrl: 'images/shoes/reebok1.jpg',
-                price: 220
+                price: 220,
+                category: 'Reebok'
             },
             {
                 id: 6,
-                name: 'Reebok Workout Plus',
+                name: 'Workout Plus',
                 imageUrl: 'images/shoes/reebok2.jpg',
-                price: 280
+                price: 280,
+                category: 'Adidas'
             },
             {
                 id: 9,
-                name: 'Adidas Sambarose',
+                name: 'Sambarose',
                 imageUrl: 'images/shoes/adidas1.jpg',
-                price: 125
+                price: 125,
+                category: 'Adidas'
             },
             {
                 id: 10,
-                name: 'Adidas Sambarose',
+                name: 'Sambarose',
                 imageUrl: 'images/shoes/adidas2.jpg',
-                price: 190
+                price: 190,
+                category: 'Adidas'
             },
             {
                 id: 11,
-                name: 'Adidas Campus',
+                name: 'Campus',
                 imageUrl: 'images/shoes/adidas3.jpg',
-                price: 190
+                price: 190,
+                category: 'Adidas'
             },
             {
                 id: 12,
-                name: 'Adidas Campus',
+                name: 'Campus',
                 imageUrl: 'images/shoes/adidas4.jpg',
-                price: 165
+                price: 165,
+                category: 'Adidas'
             }
         ]
     },
@@ -154,33 +174,38 @@ const SHOP_DATA = {
         items: [
             {
                 id: 1,
-                name: 'Nike Air Force 270',
+                name: 'Air Force 270',
                 imageUrl: 'images/shoes/nike1.jpg',
-                price: 225
+                price: 225,
+                category: 'Nike'
             },
             {
                 id: 7,
-                name: 'Reebok Aztrek',
+                name: 'Aztrek',
                 imageUrl: 'images/shoes/reebok3.jpg',
-                price: 110
+                price: 110,
+                category: 'Reebok'
             },
             {
                 id: 8,
-                name: 'Reebok Aztrek',
+                name: 'Aztrek',
                 imageUrl: 'images/shoes/reebok4.jpg',
-                price: 160
+                price: 160,
+                category: 'Reebok'
             },
             {
                 id: 13,
-                name: 'Adidas Adilette Shower',
+                name: 'Adilette Shower',
                 imageUrl: 'images/shoes/adidas5.jpg',
-                price: 185
+                price: 185,
+                category: 'Adidas'
             },
             {
                 id: 14,
-                name: 'Adidas Adilette Shower',
+                name: 'Adilette Shower',
                 imageUrl: 'images/shoes/adidas6.jpg',
-                price: 185
+                price: 185,
+                category: 'Adidas'
             }
         ]
     }

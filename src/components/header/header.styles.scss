@@ -25,8 +25,16 @@
     font-size: 14px;
 
     .option {
-      padding: 0 15px;
+      margin: 0 15px;
       cursor: pointer;
+
+      &:hover {
+        // border-top: 2px solid #fff;
+        // border-bottom: 2px solid #ff0000;
+        // padding-bottom: 2px;
+        // padding-top: 2px;
+        text-decoration: underline;
+      }
     }
   }
 }

@@ -84,6 +84,13 @@ a {
     .shop-page .collection-page .items .collection-item {
         height: 380px;
     }
+
+    .preview .collection-item .custom-button,
+    .items .collection-item .custom-button {
+        top: 255px;
+        width: 90%;
+        display: unset;
+    }
 }
 
 @media screen and (max-width: 350px) {

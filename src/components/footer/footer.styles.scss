@@ -1,0 +1,40 @@
+.footer-container {
+    width: 100%;
+    background-color: #f8f8f8;
+
+    .footer {
+        max-width: 1200px;
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        padding: 40px 60px;
+
+        .footer-left,
+        .footer-middle,
+        .footer-right {
+            width: 33%;
+        }
+
+        .logo h1 {
+            font-family: 'Mansalva', cursive;
+            font-size: 28px;
+            text-align: right;
+        }
+
+        .title {
+            text-transform: uppercase;
+            font-weight: 800;
+            line-height: 40px;
+            font-size: 14px;
+        }
+
+        p {
+            line-height: 20px;
+            font-size: 14px;
+        }
+
+        p:hover {
+            text-decoration: underline;
+        }
+    }
+}

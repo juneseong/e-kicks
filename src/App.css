@@ -58,11 +58,11 @@ a {
         text-align: left;
     }
     
-    .header > div:first-child {
+    .header .empty {
         display: none;
     }
 
-    .header .options {
+    .body .header .options {
         width: 67%;
     }
 }

@@ -22,7 +22,7 @@ const Header = ({ currentUser, hidden, history }) => (
             : null}
         <div 
             className='header' style={{ marginTop: history.location.pathname === '/checkout' ? '60px' : '' }}>
-            <div></div>
+            <div className='empty'></div>
             <div className='logo-container'>
                 <Link to='/' className='logo'>
                     <h1>e-kicks</h1>
@@ -38,8 +38,9 @@ const Header = ({ currentUser, hidden, history }) => (
                     : <Link className='option' to='/signin'>Sign In</Link>
                 }
                 <CartIcon />
+                {hidden ? null : <CartDropdown />}
             </div>
-            {hidden ? null : <CartDropdown />}
+
         </div>
     </>
 )
